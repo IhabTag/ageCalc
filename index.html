@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang=en>
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Testing Page</title>
+        <style>
+            
+            
+            .container {
+                background-color: rgba(0, 255, 255, 0.1);
+                width: 400px;
+                height: 300px;
+                margin: 100px auto;
+                text-align: center;
+                border: 1px solid darkblue;
+                border-radius: 10%;
+            }
+            
+            h2 {
+                color: darkblue;
+                padding: 10px;
+                margin-top: 0px;
+                border-bottom: 1px solid darkblue;
+            }
+            .calc, #showResult, #ageInYears {
+                width: 200px;
+                height: 50px;
+                padding: 5px;
+                margin: 10px auto;
+            }
+            
+            #showResult {
+                border: solid 1px #000;
+                line-height: 50px;
+                text-align: center;
+            }
+            
+            #resultText, #ageInYears {
+                display: inline-block;
+                line-height: normal;
+                font-size: 1.15em;
+                vertical-align: middle;
+            }
+            
+            #ageInYears {
+                text-align: center;
+            }
+            
+            .calc {
+                width: 212px;
+                background-color: aqua;
+                border: none;
+                color: darkblue;
+                font-weight: bold;
+                font-size: 18px;
+                border: 1px solid darkblue;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <div class="container">
+            <h2>Age Year to Days Calculator</h2>
+            <input type="text" id= "ageInYears" placeholder="Your age in years">
+            <div id="showResult"><span id="resultText"></span></div>
+            <button class="calc" onclick="ageCalc()">Calculate</button>
+        </div>
+        <script src="script.js"></script>
+    </body>    
+</html>
