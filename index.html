@@ -19,12 +19,12 @@
                 text-align: center;
                 border: 1px solid darkblue;
                 border-radius: 10%;
-                padding-bottom: 20px;
+                padding-bottom: 55px;
             }
             
             h2 {
                 color: darkblue;
-                padding: 10px;
+                padding: 20px;
                 margin-top: 0px;
                 border-bottom: 1px solid darkblue;
             }
@@ -56,7 +56,8 @@
             
             .calc {
                 width: 212px;
-                background-color: aqua;
+                height: 62px;
+                background-color: rgba(0, 255, 255, 0.3);
                 border: none;
                 color: darkblue;
                 font-weight: bold;
@@ -71,7 +72,7 @@
         
         <div class="container">
             <h2>Age Year to Days Calculator</h2>
-            <input type="text" id= "ageInYears" placeholder="Your age in years">
+            <input type="text" id= "ageInYears" placeholder="Your age in years" autofocus="true">
             <div id="showResult"><span id="resultText"></span></div>
             <button class="calc" onclick="ageCalc()">Calculate</button>
         </div>
